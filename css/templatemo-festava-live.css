@@ -59,6 +59,11 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 h2,
 h3,
 h4,
@@ -356,8 +361,8 @@ strong {
 -----------------------------------------*/
 .site-header {
   background-color: var(--primary-color);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 5px;
+  padding-bottom: 2px;
 }
 
 
@@ -512,7 +517,8 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
+  /* background-image: url('../images/edward-unsplash-blur.jpg'); */
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('../images/edward-unsplash-blur.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
